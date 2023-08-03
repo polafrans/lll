@@ -1,0 +1,42 @@
+#include <stdio.h>
+
+int main()
+{
+
+
+    //first example
+    printf("i learn c programming");
+
+    // second example
+    int i;
+    scanf("%d",&i);
+    printf("you enter %d",i);
+
+    //third example
+    printf("enter two int num");
+    int u,o;
+    scanf("%d %d",&u ,&o);
+    printf("sum is %d",u+o);
+
+    //example number four
+    printf("enter two int num");
+    float t,r;
+    scanf("%d %d",&t ,&r);
+    printf("sum is %f",t*r);
+
+    // example number fife
+    char pola;
+    scanf("%c",&pola);
+    printf("\n pola =%d",pola);
+    // example number seven
+
+
+  int x,y;
+  scanf("%d %d",&x,&y);
+
+x=x+y;
+y=x-y;
+x=x-y;
+printf("%d %d",x,y);
+
+}
